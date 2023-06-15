@@ -21,7 +21,7 @@ class CircularImage extends StatelessWidget {
               bottomRight: Radius.circular(10),
             ),
             child: Image.asset(
-              'assets/images/fikri1.jpg',
+              'assets/images/arif1.jpg',
               fit: BoxFit.cover,
             ),
           ),
@@ -29,7 +29,7 @@ class CircularImage extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.only(top: 10),
           child: Text(
-            'M.fikriansyah',
+            'Muhammad Arif',
             style: GoogleFonts.poppins(
               fontSize: 20,
             ),
